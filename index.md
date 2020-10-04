@@ -2,7 +2,7 @@
 
 ### 基本信息
 
-<body background=http://p1.so.qhmsg.com/t01ed5a885549b6bf3b.jpg>
+<body background=8bbaf9021106ecda6f03a2b3050b3e2.jpg>
  
 <table border="1" align="center" cellpadding="10" width="800">
 <tr>
