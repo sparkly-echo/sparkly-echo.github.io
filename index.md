@@ -2,9 +2,6 @@
 
 ### 基本信息
 
-<body background=8bbaf9021106ecda6f03a2b3050b3e2.jpg>
- 
-<table border="1" align="center" cellpadding="10" width="800">
 <tr>
     <th colspan="7" bgcolor="BurlyWood" >我的个人简介</th>
 </tr>
