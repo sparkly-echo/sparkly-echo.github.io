@@ -2,9 +2,7 @@
 
 ### 基本信息
 
-<tr>
-    <th colspan="7" bgcolor="BurlyWood" >我的个人简介</th>
-</tr>
+
   <table border="1" align="center" cellpadding="10" width="800">
 <tr>
     <th bgcolor="BurlyWood">姓名:</th>
@@ -40,7 +38,7 @@
      <th bgcolor="BurlyWood">籍贯:</th>
      <td>川</td>
      <th bgcolor="BurlyWood">邮箱:</th>
-     <td colspan="2"<p><a  href="mailto:182******@qq.com?subject=Hello%20again">141*******@qq.com </a></p></td>
+     <td>141*******@qq.com </td>
 </tr>
  
 
