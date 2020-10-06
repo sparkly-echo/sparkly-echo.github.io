@@ -127,29 +127,66 @@
 							</section>
 
 					</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
 
-				<!-- Contact -->
-					<section id="contact">
-						<div class="inner">
-							<section>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="6"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Clear" /></li>
+		
+		<div id="messages" class="item">
+	<h2>留言板</h2>
+	<div id="recent-messages" class="item-content"></div>
+	<a href="https://blog.dandyweng.com/messages/" target="_blank">查看更多留言 &rsaquo;</a>
+	</div>
+	
+	
+	<div id="guestbook" class="item">
+	<h2>写新留言</h2>
+	<div class="item-content">
+	<div id="new-message">
+	<div id="step-1" class="inner-container">
+	<textarea id="message-content" placeholder="有什么想对我说的？畅所欲言吧" oninput="guestbook.contentDidChange(this)"></textarea>
+	<p>留言会公开显示，请勿在留言内容写下微信号等私人联系方式，谨防诈骗。如果你不想发布公开留言，也可以发送邮件到 <a href="mailto:dandyweng@dandyweng.com">dandyweng@dandyweng.com</a> 与我联系。</p>
+	<button id="next-step-button" class="inactive" onclick="guestbook.next()">完成</button>
+	</div>
+	<div id="step-2" class="inner-container">
+	<label for="message-name">昵称</label>
+	<input type="text" id="message-name" />
+	<p>留空视为匿名。</p>
+	
+	<label for="message-email">邮件</label>
+	<input type="email" id="message-email" placeholder="john@example.com" />
+	<p>（选填）当这条留言收到回复时会发送邮件通知你，不会公开显示。</p>
+	
+	<label for="message-url">网站</label>
+	<input type="url" id="message-url" placeholder="https://example.com" />
+	<p>（选填）个人网站或社交网站主页均可。</p>
+	
+	<button onclick="guestbook.post(this)">保存</button>
+	</div>
+	<div id="step-3" class="inner-container">
+	<h3>你的留言已经保存。</h3>
+	<p>为防止广告信息，所有留言都会在审核之后才会公开显示。</p>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</section>
+	
+	<footer>
+		
+		
+		
+										
+										
+										
+										
 									</ul>
 								</form>
 							</section>
@@ -179,6 +216,8 @@
 						</div>
 					</section>
 
+		
+		
 				<!-- Footer -->
 					<footer id="footer">
 						<div class="inner">
